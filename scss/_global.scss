@@ -1,0 +1,27 @@
+.body {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #eff2f1;
+}
+.title {
+  font-size: 34px;
+  font-weight: 800;
+  &-centered {
+    margin: 0 auto;
+    font-size: 48px;
+    max-width: 900px;
+  }
+}
+.subtitle {
+  &-centered {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+}
+
+[class*="__conteiner"] {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 80px 15px;
+}

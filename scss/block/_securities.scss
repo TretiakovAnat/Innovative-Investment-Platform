@@ -1,0 +1,32 @@
+.securities {
+  position: relative;
+  background-color: #fff;
+  &__conteiner {
+    display: flex;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    padding-top: 90px;
+  }
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  &__subtitle {
+    max-width: 600px;
+  }
+  &__btn {
+    font-weight: 600;
+    background-color: var(--colorSecond);
+    margin-bottom: 153px;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

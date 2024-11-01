@@ -1,0 +1,21 @@
+.ready {
+}
+.ready__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ready__title {
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.ready__subtitle {
+  font-weight: 300;
+
+  padding-bottom: 50px;
+}
+
+.ready__btn {
+}

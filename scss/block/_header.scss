@@ -1,0 +1,48 @@
+.header {
+  position: relative;
+  z-index: 5;
+  &__conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+  }
+  &__logo {
+  }
+  &__menu {
+    display: flex;
+  }
+  &__button {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  &__link {
+    font-size: 18px;
+    font-weight: 700;
+    &:hover {
+      transition: all 0.5;
+      text-decoration: underline;
+    }
+  }
+}
+.menu {
+  &__body {
+    margin-right: 30px;
+  }
+  &__list {
+    display: flex;
+    gap: 44px;
+    max-width: 670px;
+    font-weight: 600;
+  }
+  &__item {
+    font-size: 18px;
+  }
+  &__link {
+    &:hover {
+      transition: all 0.5;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.market {
+  background: #eff2f1;
+  &__conteiner {
+    display: flex;
+    justify-content: center;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 0 50px;
+    position: relative;
+  }
+  &__title {
+    font-size: 36px;
+  }
+  &__subtitle {
+  }
+}
+.item__block {
+  border-left: 2px solid var(--colorPrime);
+}

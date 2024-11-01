@@ -1,0 +1,25 @@
+.benefits {
+  background-color: var(--colorPrime);
+  &__conteiner {
+  }
+  &__content {
+    color: #fff;
+  }
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  &__subtitle {
+    max-width: 600px;
+  }
+  &__list {
+    padding: 80px 0 0 0;
+    display: flex;
+    gap: 40px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+}
