@@ -736,7 +736,7 @@ button {
 .subscribe {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/image/subs1.jpg);
+  background-image: url(../image/subs1.jpg);
   color: #fff;
 }
 
